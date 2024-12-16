@@ -35,7 +35,7 @@
   line-height: 26.08px;
   color: #ffffff;
   text-align: left;
-  margin: 0 0 92px;
+  margin: 0;
 }
 @media screen and (max-width: 1024px) {
   .intro {
@@ -61,7 +61,7 @@
   }
   .intro__paragraph3 {
     max-width: 720px;
-    margin: 0 0 88px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 544px) {
@@ -87,6 +87,6 @@
   }
   .intro__paragraph3 {
     max-width: 288px;
-    margin: 0 0 64px;
+    margin: 0;
   }
 }
