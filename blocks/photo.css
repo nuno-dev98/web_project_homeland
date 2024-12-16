@@ -1,4 +1,4 @@
-.photo__grid-container {
+.photo__grid {
   display: grid;
   max-width: 1184px;
   grid-template-columns: repeat(4, 284px);
@@ -6,27 +6,27 @@
   margin: 118px auto 0;
   justify-content: center;
 }
-.photo__grid-image {
+.photo__image {
   max-width: 284px;
   width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-  .photo__grid-container {
+  .photo__grid {
     grid-template-columns: repeat(2, 352px);
     margin: 64px auto 0;
   }
-  .photo__grid-image {
+  .photo__image {
     max-width: 352px;
   }
 }
 @media screen and (max-width: 544px) {
-  .photo__grid-container {
+  .photo__grid {
     grid-template-columns: 288px;
     margin: 38px auto 0;
     gap: 12px;
   }
-  .photo__grid-image {
+  .photo__image {
     max-width: 288px;
   }
 }
