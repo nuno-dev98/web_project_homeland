@@ -28,3 +28,7 @@ Durante o desenvolvimento deste projeto, várias ideias de melhorias surgiram. A
 
 2. **Melhorar o Design Visual**
    - Criar uma paleta de cores mais envolvente e personalizada para refletir a identidade da galeria.
+
+## 📄 GitHub Pages
+
+Acesse o projeto online: [Tripleten Web_Project_Homeland](https://nuno-dev98.github.io/web_project_homeland/)

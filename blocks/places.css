@@ -40,6 +40,7 @@
   text-align: left;
   color: #aaaaaa;
   margin: 0 0 8px;
+  text-transform: uppercase;
 }
 .places__artists-paragraph {
   max-width: 329.66px;
@@ -82,7 +83,6 @@
 .places__button {
   grid-area: buttom;
   max-width: 356.08px;
-
   border-radius: 4px;
   padding: 13px 20px;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -146,7 +146,7 @@
     max-width: 355px;
   }
 }
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 640px) {
   .places {
     max-width: 320px;
     margin: 62px auto;
@@ -170,10 +170,12 @@
     font-size: 32px;
     line-height: 35px;
     text-align: left;
+    padding: 0 16px;
   }
   .places__artists {
     grid-area: artists;
     max-width: 288px;
+    padding: 0 16px;
   }
   .places__artists-heading {
     max-width: 288px;
@@ -196,5 +198,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16.94px;
+    margin: 0 auto;
   }
 }
